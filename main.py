@@ -1,4 +1,7 @@
-import string, random, os, sys
+import string
+import random
+import os
+import sys
 m = ""
 j = ' '.join(sys.argv[1:])
 if not os.name in ('nt', 'dos'):
