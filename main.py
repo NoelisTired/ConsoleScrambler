@@ -1,4 +1,4 @@
-import os
+import os, shlex
 import random
 import string
 import sys
@@ -11,7 +11,7 @@ else:
     cmd = "cls"
 for i in j:
     while len(j) > 0:
-        os.system(cmd)
+        os.system(shlex.quote(cmd))
         x = random.choices(string.ascii_letters + string.whitespace +
                            string.punctuation,
                            k=1)[0]
