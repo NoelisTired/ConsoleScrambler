@@ -1,5 +1,6 @@
-import os, shlex
+import os
 import random
+import shlex
 import string
 import sys
 
